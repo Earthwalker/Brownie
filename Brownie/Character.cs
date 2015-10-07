@@ -1,5 +1,5 @@
 //-----------------------------------------------------------------------
-// <copyright file="Char.cs" company="Leamware">
+// <copyright file="Character.cs" company="Leamware">
 //     Copyright (c) Leamware. All rights reserved.
 // </copyright>
 //-----------------------------------------------------------------------
@@ -16,7 +16,7 @@ namespace Brownie
     public struct Character
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="Brownie.Character" /> struct.
+        /// Initializes a new instance of the <see cref="Character" /> struct.
         /// </summary>
         /// <param name="character">The character.</param>
         /// <param name="foreColor">Color of the foreground.</param>
@@ -29,7 +29,7 @@ namespace Brownie
         }
 
         /// <summary>
-        /// Gets the underlying char.
+        /// Gets or sets the underlying char.
         /// </summary>
         /// <value>
         /// The underlying char.
@@ -37,7 +37,7 @@ namespace Brownie
         public char Char { get; set; }
 
         /// <summary>
-        /// Gets the foreground color.
+        /// Gets or sets the foreground color.
         /// </summary>
         /// <value>
         /// The foreground color.

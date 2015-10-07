@@ -13,7 +13,7 @@ namespace Brownie
     using System.Text;
 
     /// <summary>
-    /// Utility
+    /// Helper methods.
     /// </summary>
     public static class Utility
     {
